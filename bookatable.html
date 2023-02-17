@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Book a Table</title>
+  </head>
+  <body>
+    <header>
+      <img src="Images/logo.jpeg" />
+
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-list-item">
+            <a class="header-nav-link" href="home.html">Home</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a class="header-nav-link" href="about-us.html">About Us</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a class="header-nav-link" href="menu.html">Menu</a>
+          </li>
+          
+          </li>
+          <li class="header-nav-list-item">
+            <a class="header-nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a class="header-nav-link" href="bookatable.html">Book A Table</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a class="header-nav-link" href="contactus.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="book-a-table">
+      <h1 class="reservation">Make your Reservation</h1>
+      <form id="new-reservation-form">
+        <fieldset>
+          <legend>Book your Table</legend>
+          <label for="first-name-input">First Name:</label>
+          <input name="firstname" id="first-name-input" type="text" />
+
+          <label for="last-name-input">Last Name:</label>
+          <input name="lastname" id="last-name-input" type="text" />
+
+          <label for="contact-number-input">Contact Number:</label>
+          <input name="contactnumber" id="contact-number-input" type="text" />
+
+          <label for="email-address-input">Email Address:</label>
+          <input name="emailaddress" id="email-address-input" type="text" />
+
+          <button id="submit-button" type="submit">SUBMIT</button>
+        </fieldset>
+      </form>
+
+      <article id="fixed">
+        <h2>Please Note</h2>
+        <p>Students can avail 20% discount</p>
+      </article>
+
+      <script src="bookatable.js"></script>
+    </main>
+    <footer>
+      <p class="paragraph">
+        Come, Dine with us to experience the real taste of India
+      </p>
+      <h8
+        >Our strength lies in our people, our staff and award-winning chefs
+        sourced from India fusing creative Indian food from the subcontinent,
+        using quality ingredients and cooked to the highest standards</h8
+      >
+    </footer>
+  </body>
+</html>

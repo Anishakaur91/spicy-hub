@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Contact-us</title>
+  </head>
+  <body>
+    <header>
+      <img src="Images/logo.jpeg" />
+
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-list-item">
+            <a class="header-nav-link" href="home.html">Home</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a class="header-nav-link" href="about-us.html">About Us</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a class="header-nav-link" href="menu.html">Menu</a>
+          </li>
+
+          <li class="header-nav-list-item">
+            <a class="header-nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a class="header-nav-link" href="bookatable.html">Book A Table</a>
+          </li>
+          <li class="header-nav-list-item">
+            <a class="header-nav-link" href="contactus.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="address">
+        <h5>Address</h5>
+        <p>35 Hardwick Lane,Liverpool,United Kingdom,L3 9LP</p>
+      </section>
+      <div id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9513.995296045958!2d-2.994497968136228!3d53.4059045717403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b21eb0f7658a7%3A0xbbe318b0ef6c21e1!2sJollibee%20Liverpool!5e0!3m2!1sen!2suk!4v1676548631285!5m2!1sen!2suk"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form id="new-contact-us-form">
+          <fieldset>
+            <legend>Contact Us</legend>
+            <p>
+              You can contact us by filling a short form below and we shall get
+              back to you in 24 Hours, for urgent enquiries please call 0151 776
+              8886
+            </p>
+            <label for="name-input">Name:</label>
+            <input name="name" required id="name-input" type="text" />
+
+            <label for="email-address-input">Email address:</label>
+            <input
+              name="emailaddress"
+              required
+              id="email-address-input"
+              type="text"
+            />
+
+            <label for="message-input">Message:</label>
+
+            <input
+              name="message"
+              required
+              id="message-input"
+              type="text"
+              style="height: 50px"
+            />
+
+            <!-- <textarea
+              id="message-input"
+              name="message-input"
+              id="message-input"
+              cols="30"
+              rows="10"
+              maxlength="300"
+            ></textarea> -->
+
+            <button id="submit-button" type="submit">SUBMIT</button>
+          </fieldset>
+        </form>
+      </div>
+
+      <script src="contactus.js"></script>
+    </main>
+
+    <footer>
+      <p class="paragraph">
+        Come, Dine with us to experience the real taste of India
+      </p>
+      <h8
+        >Our strength lies in our people, our staff and award-winning chefs
+        sourced from India fusing creative Indian food from the subcontinent,
+        using quality ingredients and cooked to the highest standards</h8
+      >
+    </footer>
+  </body>
+</html>
